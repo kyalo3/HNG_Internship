@@ -4,7 +4,7 @@ import requests
 app = FastAPI()
 
 # Replace with an actual API key from a weather service provider (e.g., OpenWeatherMap)
-WEATHER_API_KEY = '7d5248320f6eea1f5bbc57d3a27dc8ae'
+WEATHER_API_KEY = '66a33d1defb3f5b5366d19fee8ae7601'
 
 def get_weather(city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}&units=metric"
